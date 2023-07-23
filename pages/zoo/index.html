@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoo</title>
-  <script type="module" crossorigin src="/assets/modulepreload-polyfill-3cfb730f.js"></script>
-  <link rel="stylesheet" href="/assets/index-9266d7d5.css">
+  <script type="module" crossorigin src="/assets/pages/zoo/index-f8cca3dc.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-3cfb730f.js">
+  <link rel="stylesheet" href="/assets/index-f81ab38a.css">
 </head>
 <body>
     <div class="header__wrapper">
@@ -25,6 +26,56 @@
                 <label class="toggle" for="theme">
                     <div class="toggle__inner"></div>
                 </label>
+            </div>
+        </div>
+    </div>
+    <div class="intro__wrapper">
+        <div class="container">
+            <div class="intro">
+                <h1 class="intro__title">Watch your favorite animal online</h1>
+                <button class="intro__button button-green button-green__play">watch online</button>
+                <div class="intro__slider slider">
+                    <div class="slider__main">
+                        <div style="background-image: url(/assets/eagle-2e163e13.webp);" class="slider__item selected">
+                            <p class="slider__par">Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from China. He loves bamboos. </p>
+                            <a href="#" class="slider__item--watch">
+                                Watch online
+                            </a>
+                        </div>
+                        <div style="background-image: url(/assets/panda-896e5f01.webp);" class="slider__item">
+                            <p class="slider__par">Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from China. He loves bamboos. </p>
+                            <a href="#" class="slider__item--watch">
+                                Watch online
+                            </a>
+                        </div>
+                        <div style="background-image: url(/assets/fox-81f884f8.webp);" class="slider__item">
+                            <p class="slider__par">Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from China. He loves bamboos. </p>
+                            <a href="#" class="slider__item--watch">
+                                Watch online
+                            </a>
+                        </div>
+                        <div style="background-image: url(/assets/gorilla-efc2ab23.webp);" class="slider__item">
+                            <p class="slider__par">Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from China. He loves bamboos. </p>
+                            <a href="#" class="slider__item--watch">
+                                Watch online
+                            </a>
+                        </div>
+                        <div style="background-image: url(/assets/crocodile-7d472736.webp);" class="slider__item">
+                            <p class="slider__par">Panda’s name is Bei Bei. He is 2 years old. Bei Bei is from China. He loves bamboos. </p>
+                            <a href="#" class="slider__item--watch">
+                                Watch online
+                            </a>
+                        </div>
+                    </div>
+                    <div class="slider__bottom">
+                        <div class="slider__count">
+                            <div class="slider__current">01</div>
+                            /
+                            <div class="slider__total">05</div>
+                        </div>
+                        <input class="slider__range" type="range" id="slider__range" value="1" min="1" max="8" step="1">
+                    </div>
+                </div>
             </div>
         </div>
     </div>
