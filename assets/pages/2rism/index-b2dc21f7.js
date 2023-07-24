@@ -1,0 +1,1 @@
+import"../../modulepreload-polyfill-3cfb730f.js";const e=document.querySelector(".nav--mobile"),t=document.querySelector(".nav__open"),c=document.querySelector(".nav__close");t.addEventListener("click",()=>{e.classList.add("active")});c.addEventListener("click",()=>{e.classList.remove("active")});
